@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e4e5;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 45px;
+    font-weight: 600;
+    color: #1877F2;
+}
+
+.main {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 390px;
+    height: 320px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 8px #c3c2c2;
+}
+
+.main div span {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.login_from_container {
+    margin: 20px 20px 0px 20px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    outline: none;
+}
+
+.login_from_container #email {
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.login_from_container #password {
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.loginBtn button {
+    width: 100%;
+    height: 50px;
+    background-color: #1877F2;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.forgotBtn {
+    display: inline;
+    justify-content: center;
+    font-size: 14px;
+    margin: 40px;
+    font-family: sans-serif;
+}
+
+.forgotBtn a {
+    text-decoration: none;
+    color: #1877F2;
+}
+
+.forgotBtn .forgot {
+    margin-right: 10px;
+}

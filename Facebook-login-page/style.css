@@ -27,6 +27,7 @@ body {
     border-radius: 5px;
     width: 390px;
     height: 320px;
+    margin-bottom: 60px;
     background-color: #ffffff;
     box-shadow: 10px 10px 8px #c3c2c2;
 }
@@ -91,4 +92,65 @@ input {
 
 .forgotBtn .forgot {
     margin-right: 10px;
+}
+
+
+.footer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    left: 0px;
+    padding-top: 120px;
+}
+
+ul {
+    margin-left: 260px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 7px;
+    font-size: 13px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #808080;
+    font-family: sans-serif;
+}
+
+ul li a button {
+    width: 30px;
+    height: 20px;
+    font-size: 15px;
+    color: #808080;
+    font-weight: 600;
+    border: 1px solid rgb(206, 204, 204);
+}
+
+.line {
+    width: 60%;
+    height: 1px;
+    margin-left: 20%;
+    background-color: #808080;
+}
+
+.pagefooterchild ul {
+    width: 63%;
+    margin-left: 255px;
+}
+
+.pagefooterchild ul li {
+    font-size: 13px;
+    margin: 10px;
+}
+
+.last {
+    margin-top: 20px;
+    margin-left: 305px;
+    font-size: 13px;
+    color: #575757;
+    width: 100px;
 }
